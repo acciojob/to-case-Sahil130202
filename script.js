@@ -1,8 +1,8 @@
 function toCase(text) {
   // write your code here
-	if(text===null)
+	if(text==="")
 	{
-		return []
+		return "-"
 	}	return text.toLowerCase() + "-" + text.toUpperCase()
 	
 }
